@@ -1,0 +1,8 @@
+.hello {
+    color:red;
+    font-family: 'Montserrat';
+}
+
+::placeholder {
+    color: gray;
+}

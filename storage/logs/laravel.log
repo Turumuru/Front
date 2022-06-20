@@ -1,0 +1,16 @@
+[2022-06-20 11:40:40] local.ERROR: The "-—" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"-—\" option does not exist. at /mnt/c/Users/936ca/example-app/vendor/symfony/console/Input/ArgvInput.php:122)
+[stacktrace]
+#0 /mnt/c/Users/936ca/example-app/vendor/symfony/console/Input/ArgvInput.php(104): Symfony\\Component\\Console\\Input\\ArgvInput->parseShortOptionSet()
+#1 /mnt/c/Users/936ca/example-app/vendor/symfony/console/Input/ArgvInput.php(84): Symfony\\Component\\Console\\Input\\ArgvInput->parseShortOption()
+#2 /mnt/c/Users/936ca/example-app/vendor/symfony/console/Input/ArgvInput.php(71): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /mnt/c/Users/936ca/example-app/vendor/symfony/console/Input/Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /mnt/c/Users/936ca/example-app/vendor/symfony/console/Command/Command.php(267): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /mnt/c/Users/936ca/example-app/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /mnt/c/Users/936ca/example-app/vendor/symfony/console/Application.php(998): Illuminate\\Console\\Command->run()
+#7 /mnt/c/Users/936ca/example-app/vendor/symfony/console/Application.php(299): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /mnt/c/Users/936ca/example-app/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#9 /mnt/c/Users/936ca/example-app/vendor/laravel/framework/src/Illuminate/Console/Application.php(102): Symfony\\Component\\Console\\Application->run()
+#10 /mnt/c/Users/936ca/example-app/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#11 /mnt/c/Users/936ca/example-app/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#12 {main}
+"} 

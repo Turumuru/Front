@@ -1,0 +1,15 @@
+$primary: red;
+$secondary: green;
+
+body {
+    font-family: 'Open Sans', 'sans - serif';
+}
+
+.hello {
+    color: $secondary;
+    font-family: 'Montserrat';
+}
+
+.loren {
+    color: $secondary;
+}
